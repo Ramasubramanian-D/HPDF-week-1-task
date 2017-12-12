@@ -1,0 +1,68 @@
+
+.tweetstyle  {
+    margin: 0px;
+    margin-bottom: 6px;
+    border-bottom: 0.5px solid grey;
+    padding-left: 15px;
+}
+
+.containerdiv  {
+    padding-left: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.avatarstyle  {
+    margin-top: 20px;
+    float: none;
+}
+
+span {
+    display: inline;
+}
+
+.buttoncontainer {
+    margin-left: 110px;
+    margin-bottom: 10px;
+}
+
+.headerstyle  {
+    display: block;
+    font-weight: bold;
+    font-family: helvetica;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.handlestyle  {
+    display: inline;
+    border-color: #9E9E9E;
+    font-weight: none;
+    font-family: helvetica;
+    font-size: 12px; 
+    margin-top: 20px;   
+}
+
+.options {
+    margin-left: 450px;
+}
+  
+.usernamestyle {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-family: helvetica;
+    font-weight: bold;
+    display: inline;
+}
+  
+.usernamestyle:hover {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-family: helvetica;
+    font-weight: bold;
+    color: #03A9F4;
+    text-decoration: underline;
+    display: inline;
+}

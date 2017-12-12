@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.trend {
+    font-family: Helvetica;
+    color: #29B6F6;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+ul {
+    padding: 0px;
+}
+
+.trend:hover {
+    font-family: Helvetica;
+    color: #29B6F6;
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+}
+
+
+.tweetcount {
+    font-family: Helvetica;
+    color: #BDBDBD;
+    margin: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    padding-left: 20px;
+    font-size: 15px;
+}

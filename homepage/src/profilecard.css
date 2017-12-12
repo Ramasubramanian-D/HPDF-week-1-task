@@ -1,0 +1,96 @@
+.avatarstyle  {
+    margin: 0px;
+}
+
+.imgstyle {
+    width: 280px;
+    height: 120px;
+    margin-bottom: 0px;
+}
+  
+.handlestyle {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 8px;
+    color: #757575;
+}
+
+.handlestyle:hover {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 8px;
+    color: #757575;
+    text-decoration: none;
+}
+  
+.usernamestyle {
+    font-family: helvetica;
+    font-size: 10px;
+    margin-top: 10px;
+    color: black;
+}
+
+.usernamestyle:hover {
+    font-family: helvetica;
+    font-size: 10px;
+    margin-top: 10px;
+    color:#2979FF;
+    text-decoration: underline;
+}
+
+.statstyle {
+    color: #2979FF;
+    width: 40px
+}
+.statContainer {
+    display: flex;
+    height: 30px;
+}
+.Button {
+    background-color: white;
+    margin: 0px;
+    width: 33%;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+    text-align: center;
+}
+
+.Button:hover {
+    background-color: white;
+    margin: 0px;
+    width: 33%;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #BBDEFB;
+    text-align: center;
+}
+
+.containerdiv {
+    display: flex;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    height: 30px;
+}
+
+.title {
+    color: #757575;
+}
+
+.title:hover {
+    color: #81D4FA;
+}
+
+.statnumber {
+    color: #81D4FA;
+    font-weight: bold;
+
+}
+
+.statnumber:hover {
+    color: #81D4FA;
+    font-weight: bold;
+
+}

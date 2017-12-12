@@ -1,0 +1,86 @@
+.Appbarstyle  {
+    height: 46px;
+    width: 100%;
+    margin-top: 0px;
+    background-color: white;
+    opacity: 1;
+    position: fixed;
+    margin-right: 0px;
+}
+
+.containerdiv {
+    display: flex;
+}
+
+.Buttonstyle  {
+    width: 100px;
+    height: 46px;
+    margin-top: 0px;
+    padding-top: 8px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    text-align: left;
+    font-size: 10px;
+    
+}
+
+.buttons {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-right: 0px;
+    padding: 0px;
+    text-align: left;
+}
+  
+.mainicon {
+    margin-left: 200px;
+    margin-top: 5px;
+}
+
+.Textfieldstyle {
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(191, 226, 241);
+    padding-left: 22px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+ 
+}
+
+.searchbutton {
+    padding-right: 10px;
+    padding-top: 8px;
+}
+
+.usericon {
+    margin-left: 40px;
+    margin-top: 5px;
+}
+ 
+.searchcontainer {
+    display: flex;
+    background-color: #E1F5FE;
+    margin-top: 5px;
+    border-radius: 25px;
+    width: 200px;
+    margin-left: 200px;
+    height: 36px;
+    margin-bottom: 2px; 
+}
+.Tweetbutton {
+    border-radius: 25px;
+    background-color: #1565C0;
+    margin-top: 5px;
+    margin-left: 450px;
+    color:white;
+}
+
+.tweetbuttoncontainer {
+    display: flex;
+    border-radius: 25px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
