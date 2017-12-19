@@ -6,6 +6,12 @@
     padding-left: 10px;
 }
 
+.containerdiv  {
+    padding-left: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
 
 .avatarstyle  {
     margin-top: 20px;
@@ -30,6 +36,7 @@ span {
     font-family: helvetica;
     color: #BDBDBD;
     display: inline;
+    text-decoration: none;
 }
 
 .img {
@@ -42,7 +49,6 @@ span {
     font-family: helvetica;
     color: #BDBDBD;
     display: inline;
-    text-decoration:none;
 }
 
 .options {
@@ -50,27 +56,27 @@ span {
     margin-top: 10px;
 }
   
-.usernamestyle {
-    margin-top: 10px;
-    margin-bottom: 8px;
-    font-size: 15px;
-    font-family: helvetica;
-    font-weight: bold;
-    display: inline;
-}
-
 .buttoncontainer {
     margin-left: 110px;
     margin-bottom: 10px;
 }
   
+.usernamestyle {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-family: helvetica;
+    font-weight: bold;
+    display: inline;
+    padding-left: 6px;
+}
+  
 .usernamestyle:hover {
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 8px;
     font-size: 15px;
     font-family: helvetica;
     font-weight: bold;
     color: #03A9F4;
-    text-decoration: underline;
     display: inline;
 }

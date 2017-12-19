@@ -58,12 +58,12 @@ const TweetCard = () => (
     <Paper style={style} zDepth={3} >
       <div style={tweetcontainer}>
         <Avatar
-          src="https://www.hcltech.com/sites/default/files/left_mu.png"
+          src="https://metrouk2.files.wordpress.com/2016/09/610084506.jpg?w=748&h=498&crop=1"
           size={40}
           style={iconstyle}
         />
         <div style={textbox}>
-          <TextField hintText="First name" style={Textfieldstyle} underlineShow={false} >  
+          <TextField hintText="what's happening" style={Textfieldstyle} underlineShow={false} >  
           </TextField>
           <ImageAddAPhoto viewBox="0 0 30 30" color="#1565C0" style={imgbutton}/>
         </div>

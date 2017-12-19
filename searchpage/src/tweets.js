@@ -4,9 +4,10 @@ import Avatar from 'material-ui/Avatar'
 import FlatButton from 'material-ui/FlatButton';
 import NavigationExpandMoreIcon  from 'material-ui/svg-icons/navigation/expand-more';
 import './tweets.css';
-import { ToggleStar } from 'material-ui/svg-icons/toggle/star';
 import { SocialShare } from 'material-ui/svg-icons/social/share';
 import { NotificationSms, AvReplay } from 'material-ui/svg-icons';
+import ActionFavouriteBorder  from 'material-ui/svg-icons/action/favorite-border';
+import ActionSystemUpdateAlt from 'material-ui/svg-icons/action/system-update-alt';
 
 const style = {
   height: '1000px',
@@ -17,22 +18,8 @@ const style = {
 }
 
 const labelstyle = {
-    fontFamily: 'helvetica',
-    fontSize: '15px',
-    textAlign: 'left',
-    padding: '0px',
-    fontWeight: 'bold',
     color: '#9E9E9E'
 }
-  
-  const Buttonstyle = {
-    width: '140px',
-    height: '100%',
-    display: 'block',
-    margin: '0px',
-    marginTop: '3px'
-}
-  
 const OthersTweets = () => (
   <div style={style}>
     <Paper className="tweetstyle" zDepth={3} rounded={false} >
@@ -44,10 +31,10 @@ const OthersTweets = () => (
           <p>Okay, so, when are our Netflix accounts and pizzas getting linked to #Aadhaar ?! </p>
       </div>
       <div className="buttoncontainer">
-          <FlatButton label="32k" />
-          <FlatButton label="128k" />
-          <FlatButton label="64k" />
-          <FlatButton  />
+          <FlatButton label="32k"  labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<NotificationSms color="#9E9E9E" />} />
+          <FlatButton label="128k"  labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<AvReplay color="#9E9E9E" />} />
+          <FlatButton label="64k"  labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<ActionFavouriteBorder color="#9E9E9E" />} />
+          <FlatButton disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<ActionSystemUpdateAlt color="#9E9E9E" />} />
       </div>
   </Paper>
   <Paper className="tweetstyle" zDepth={3} rounded={false} >
@@ -60,10 +47,10 @@ const OthersTweets = () => (
           <img src="https://pbs.twimg.com/media/DQdtGJWXcAAVCes.jpg" />
       </div>
       <div className="buttoncontainer">            
-          <FlatButton label="24k" />
-          <FlatButton label="360k" />
-          <FlatButton label="600k" />
-          <FlatButton  />
+          <FlatButton label="24k" labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<NotificationSms color="#9E9E9E" />}  />
+          <FlatButton label="360k"  labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<AvReplay color="#9E9E9E" />} />
+          <FlatButton label="600k"   labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<ActionFavouriteBorder color="#9E9E9E" />} />
+          <FlatButton disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<ActionSystemUpdateAlt color="#9E9E9E" />} />
       </div>
   </Paper>
   <Paper className="tweetstyle" zDepth={3} rounded={false} >
@@ -75,10 +62,10 @@ const OthersTweets = () => (
           <p>Aadhaar has bought greatness into the nation !! #digitalindia  </p>
       </div>
       <div className="buttoncontainer">
-          <FlatButton label="10k" />
-          <FlatButton label="33k" />
-          <FlatButton label="480k" />
-          <FlatButton  />
+          <FlatButton label="10k" labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<NotificationSms color="#9E9E9E" />} />
+          <FlatButton label="33k"  labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<AvReplay color="#9E9E9E" />} />
+          <FlatButton label="480k"   labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<ActionFavouriteBorder color="#9E9E9E" />} />
+          <FlatButton disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<ActionSystemUpdateAlt color="#9E9E9E" />} />
       </div>
   </Paper>
   <Paper className="tweetstyle" zDepth={3} rounded={false} >
@@ -91,10 +78,10 @@ const OthersTweets = () => (
           <img src="https://pbs.twimg.com/media/DQbkPGgVoAE3mOX.jpg" className="img" />
       </div>
       <div className="buttoncontainer">
-          <FlatButton label="1k" />
-          <FlatButton label="11k" />
-          <FlatButton label="21k" />
-          <FlatButton  />
+          <FlatButton label="1k" labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<NotificationSms color="#9E9E9E" />}  />
+          <FlatButton label="11k"  labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<AvReplay color="#9E9E9E" />} />
+          <FlatButton label="21k"   labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<ActionFavouriteBorder color="#9E9E9E" />} />
+          <FlatButton disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<ActionSystemUpdateAlt color="#9E9E9E" />} />
       </div>
   </Paper>
   </div>

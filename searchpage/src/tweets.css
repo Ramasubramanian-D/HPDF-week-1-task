@@ -10,6 +10,7 @@
     padding-left: 10px;
     margin-bottom: 5px;
     padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .avatarstyle  {
@@ -34,13 +35,23 @@ span {
     margin-top: 20px;
 }
 
-.handlestyle  {
-    display: inline;
-    border-color: #9E9E9E;
-    font-weight: none;
+.handlestyle {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 15px;
     font-family: helvetica;
-    font-size: 12px; 
-    margin-top: 20px;   
+    color: #BDBDBD;
+    display: inline;
+}
+
+.handlestyle:hover {
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-family: helvetica;
+    color: #BDBDBD;
+    display: inline;
+    text-decoration:none;
 }
 
 .options {
@@ -54,6 +65,7 @@ span {
     font-family: helvetica;
     font-weight: bold;
     display: inline;
+    padding-left: 6px;
 }
   
 .usernamestyle:hover {
@@ -63,6 +75,5 @@ span {
     font-family: helvetica;
     font-weight: bold;
     color: #03A9F4;
-    text-decoration: underline;
     display: inline;
 }

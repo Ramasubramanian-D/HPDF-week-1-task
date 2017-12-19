@@ -24,7 +24,7 @@ const ProfileCard = () => (
         <div>
         <img src="https://cdn.images.express.co.uk/img/dynamic/galleries/x701/315374.jpg" className="imgstyle"/>
         <div className="containerdiv">    
-          <Avatar src="https://www.hcltech.com/sites/default/files/left_mu.png" size={50} />
+          <Avatar src="https://metrouk2.files.wordpress.com/2016/09/610084506.jpg?w=748&h=498&crop=1" size={50} />
           <p className="headerstyle"> man united <br />  <p className="handlestyle"> @manunited </p>  </p>
         </div>
         <div className="statContainer">

@@ -65,9 +65,9 @@ const MainAppBar = () => (
     <Paper className="Appbarstyle" zDepth={2} >
       <div className="containerdiv">
         <div className="buttons">
-          <FlatButton label="home"  labelStyle={labelstyle} style={Buttonstyle} disableTouchRipple='true' hoverColor="#E1F5FE" icon={<ActionHome viewBox="0 0 28 28" color="#9E9E9E" />}  />                        
-          <FlatButton label="notifs" labelStyle={labelstyle} style={Buttonstyle} disableTouchRipple='true' hoverColor="#E1F5FE" icon={<NotificationsIcon viewBox="0 0 28 28" color="#9E9E9E"/>} />             
-          <FlatButton label="messages" labelStyle={labelstyle} style={Buttonstyle} disableTouchRipple='true' hoverColor="#E1F5FE" icon={<NotificationSms viewBox="0 0 28 28" color="#9E9E9E"/>} />           
+          <FlatButton label="home"  labelStyle={labelstyle} style={Buttonstyle} disableTouchRipple='true' hoverColor="#E6F7FE" icon={<ActionHome viewBox="0 0 28 28" color="#9E9E9E" />}  />                        
+          <FlatButton label="notifs" labelStyle={labelstyle} style={Buttonstyle} disableTouchRipple='true' hoverColor="#E6F7FE" icon={<NotificationsIcon viewBox="0 0 28 28" color="#9E9E9E"/>} />             
+          <FlatButton label="messages" labelStyle={labelstyle} style={Buttonstyle} disableTouchRipple='true' hoverColor="#E6F7FE" icon={<NotificationSms viewBox="0 0 28 28" color="#9E9E9E"/>} />           
         </div>
         <Avatar
               src="https://vignette.wikia.nocookie.net/meatsleep/images/9/99/Twitterbird.jpg/revision/latest?cb=20151231235040"
