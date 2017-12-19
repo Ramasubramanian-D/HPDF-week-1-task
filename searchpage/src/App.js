@@ -17,7 +17,7 @@ class SearchPage extends Component {
     return (
       <MuiThemeProvider>
         <div className="App">
-            <MainAppBar />
+            <MainAppBar className="test" />
             <div className="searchname">
               <h3>aadhar </h3>
             </div>

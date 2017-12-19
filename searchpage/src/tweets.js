@@ -37,8 +37,8 @@ const OthersTweets = () => (
   <div style={style}>
     <Paper className="tweetstyle" zDepth={3} rounded={false} >
       <div className="containerdiv">    
-          <Avatar src="https://www.hcltech.com/sites/default/files/left_mu.png" size={50} />
-          <h3 className="usernamestyle" >Ramapriya <span> <p className="handlestyle">@ramapriya . 1h</p> </span><span className="options"> <NavigationExpandMoreIcon /> </span> </h3>
+          <Avatar src="https://i.ytimg.com/vi/cuEcczm2mZs/maxresdefault.jpg" size={50} />
+          <h3 className="usernamestyle" >Monesh <span> <p className="handlestyle">@monesh97 . 1h</p> </span><span className="options"> <NavigationExpandMoreIcon /> </span> </h3>
       </div>
       <div className="contentContainer">
           <p>Okay, so, when are our Netflix accounts and pizzas getting linked to #Aadhaar ?! </p>
@@ -52,8 +52,8 @@ const OthersTweets = () => (
   </Paper>
   <Paper className="tweetstyle" zDepth={3} rounded={false} >
       <div className="containerdiv">    
-          <Avatar src="https://www.hcltech.com/sites/default/files/left_mu.png" size={50} />
-          <h3 className="usernamestyle" >Chris prat <span> <p className="handlestyle">@chrisprat . 13 days ago</p> </span><span className="options"> <NavigationExpandMoreIcon /> </span> </h3>
+          <Avatar src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Rahul_Gandhi.jpg/1200px-Rahul_Gandhi.jpg" size={50} />
+          <h3 className="usernamestyle" >Rahul Gandhi <span> <p className="handlestyle">@rahulgandhi . 13 days ago</p> </span><span className="options"> <NavigationExpandMoreIcon /> </span> </h3>
       </div>
       <div className="contentContainer">
           <p>#Aadhaar Is A #DigitalPanopticon That Would Unleash The Most Inhuman Atrocities On Indians In Near Future. It Is Neither A Digital Marvel Nor An Empowering Technology. </p>
@@ -68,7 +68,7 @@ const OthersTweets = () => (
   </Paper>
   <Paper className="tweetstyle" zDepth={3} rounded={false} >
       <div className="containerdiv">    
-          <Avatar src="https://www.hcltech.com/sites/default/files/left_mu.png" size={50} />
+          <Avatar src="https://upload.wikimedia.org/wikipedia/commons/9/90/PM_Modi_2015.jpg" size={50} />
           <h3 className="usernamestyle" >Narendra modi <span> <p className="handlestyle">@Namo . 15 days ago</p> </span><span className="options"> <NavigationExpandMoreIcon /> </span> </h3>
       </div>
       <div className="contentContainer">
@@ -83,7 +83,7 @@ const OthersTweets = () => (
   </Paper>
   <Paper className="tweetstyle" zDepth={3} rounded={false} >
       <div className="containerdiv">    
-          <Avatar src="https://www.hcltech.com/sites/default/files/left_mu.png" size={50} />
+          <Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSk_VwyiauDXSHPy91f5moh45mNBjqFM369jl6LBG3cyGoFbAo5" size={50} />
           <h3 className="usernamestyle" >vikram <span> <p className="handlestyle">@viki . nov 12</p> </span><span className="options"> <NavigationExpandMoreIcon /> </span> </h3>
       </div>
       <div className="contentContainer">
