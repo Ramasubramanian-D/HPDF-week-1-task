@@ -96,7 +96,7 @@ const OthersTweets = () => (
                 <FlatButton label="151" labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<NotificationSms color="#9E9E9E" />}  />
                 <FlatButton label="253"  labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<AvReplay color="#9E9E9E" />} />
                 <FlatButton label="600" labelPosition="before" labelStyle={labelstyle} disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<ActionFavouriteBorder color="#9E9E9E" />} />
-                <FlatButton  disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<ActionSystemUpdateAlt color="#9E9E9E" />}   />
+                <FlatButton disableTouchRipple='true' hoverColor="#E6F7FE"  icon={<ActionSystemUpdateAlt color="#9E9E9E" />}   />
             </div>
         </Paper>
     </div>
